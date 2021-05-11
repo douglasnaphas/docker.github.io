@@ -16,7 +16,7 @@ version.
 
 ## Compose and Docker compatibility matrix
 
-There are several versions of the Compose file format – 1, 2, 2.x, and 3.x. The
+There are several versions of the Compose file format: 1, 2, 2.x, and 3.x. The
 table below is a quick look. For full details on what each version includes and
 how to upgrade, see **[About versions and upgrading](compose-versioning.md)**.
 
@@ -138,7 +138,7 @@ which uses version 3 Compose stack files to implement multi-container apps,
 service definitions, and swarm mode. Here are some Compose files used in the
 tutorial.
 
-- [Your first docker-compose.yml File](/get-started/part3.md#your-first-docker-composeyml-file)
+- [Your first docker-compose.yml file](/get-started/part3.md#your-first-docker-composeyml-file)
 
 - [Add a new service and redeploy](/get-started/part5.md#add-a-new-service-and-redeploy)
 
@@ -164,11 +164,11 @@ container started for that service, much like passing command-line parameters to
 `docker network create` and `docker volume create`.
 
 As with `docker container create`, options specified in the Dockerfile, such as `CMD`,
-`EXPOSE`, `VOLUME`, `ENV`, are respected by default - you don't need to
+`EXPOSE`, `VOLUME`, `ENV`, are respected by default--you don't need to
 specify them again in `docker-compose.yml`.
 
 You can use environment variables in configuration values with a Bash-like
-`${VARIABLE}` syntax - see
+`${VARIABLE}` syntax--see
 [variable substitution](#variable-substitution) for full details.
 
 This section contains a list of all configuration options supported by a service

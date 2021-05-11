@@ -17,7 +17,7 @@ This table shows which Compose file versions support specific Docker releases.
 |      2.0                |       1.10.0+             |
 |      1.0                |       1.9.1.+             |
 
-In addition to Compose file format versions shown in the table, the Compose
+In addition to the Compose file format versions shown in the table, Compose
 itself is on a release schedule, as shown in [Compose
 releases](https://github.com/docker/compose/releases/), but file format versions
 do not necessarily increment with each release. For example, Compose file format

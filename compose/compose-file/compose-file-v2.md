@@ -14,7 +14,7 @@ These topics describe version 2 of the Compose file format.
 
 ## Compose and Docker compatibility matrix
 
-There are several versions of the Compose file format – 1, 2, 2.x, and 3.x The
+There are several versions of the Compose file format: 1, 2, 2.x, and 3.x The
 table below is a quick look. For full details on what each version includes and
 how to upgrade, see **[About versions and upgrading](compose-versioning.md)**.
 
